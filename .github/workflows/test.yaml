@@ -1,10 +1,8 @@
 name: Test Pipeline
-
 on:
   push:
     branches:
       - main
-
 jobs:
   greetings:
     runs-on: ubuntu-latest

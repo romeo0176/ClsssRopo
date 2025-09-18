@@ -1,8 +1,10 @@
 name: Test Pipeline
+
 on:
   push:
     branches:
       - main
+
 jobs:
   greetings:
     runs-on: ubuntu-latest
@@ -11,5 +13,5 @@ jobs:
         run: |
           echo "welcome to the workflow"
           echo "-----------------------"
-          echo "First workflow" in Class ..."
+          echo "First workflow in Class ..."
           echo "-------------------------"
